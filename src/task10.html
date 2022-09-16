@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 10</title>
+  </head>
+  <body>
+    <center>
+      <h1>Task 10</h1>
+      <h2>
+        Create a list that stores the products and their prices according to
+        their size/color. when user selects a product and its size/color show
+        the appropriate price. accordingly.
+      </h2>
+      <hr>
+      <table style="border: 1px solid black;">
+        <tr>
+            <th>Name</th>
+            <th>Size/Color</th>
+            <th>Price(RS)</th>
+        </tr>
+        <tr>
+            <td>Duffle Bag</td>
+            <td>
+              <select id="size">
+                <option value="">-Size-</option>
+                <option value="s">Small</option>
+                <option value="l">Large</option>
+                <option value="xl">Extra Large</option>
+              </select>
+            </td>
+            <td id="price1"></td>
+        </tr>
+        <tr>
+            <td>T-Shirt</td>
+            <td>
+              <select id="color">
+                <option value="">-Color-</option>
+                <option value="wh">White</option>
+                <option value="bl">Black</option>
+                <option value="lg">Light Gray</option>
+              </select>
+            </td>
+            <td id="price2"></td>
+        </tr>
+      </table>
+    </center>
+  </body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="task10.js"></script>
+</html>
