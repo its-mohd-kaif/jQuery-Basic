@@ -14,14 +14,21 @@
         of 12th and graduation if he/she require. Provide a button to add/delete
         any number of rows for qualification.
       </h2>
-      <hr>
-      <input type="text" placeholder="Enetr Class">
-      <input type="text" placeholder="Enetr Board">
-      <input type="text" placeholder="Enetr Marks">
-      <input type="text" placeholder="Enetr Division">
-      <input type="button" value="+">
-      <input type="button" value="-">
-
+      <hr />
+      <div>
+        <ul style="list-style: none">
+          <li>
+            <input type="text" placeholder="Enter Class" id="class" />
+            <input type="text" placeholder="Enter Board" id="board" />
+            <input type="text" placeholder="Enter Marks" id="marks" />
+            <input type="text" placeholder="Enter Division" id="division" />
+            <button id="add">+</button>
+            <button id="remove">-</button>
+          </li>
+          <p id="output"></p>
+          <li id="input"></li>
+        </ul>
+      </div>
     </center>
   </body>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
